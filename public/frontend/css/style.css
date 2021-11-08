@@ -209,6 +209,12 @@ body{
 .bottom-nav a{
     font-weight: 600;
 }
+.cat_row .col{
+    padding: 0;
+}
+.cat-img{
+    margin: 0 auto;
+}
 /*************Media Query*************/
 @media(max-width: 590px){
     .product-data .product-img {
