@@ -1,4 +1,5 @@
 body{
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 .search {
@@ -84,8 +85,21 @@ body{
 .product-btn span{
     background-color: #8AC16B;
 }
-.product-desc h6{
-    color: #000;
+.product-desc h6.text-muted{
+    color: #909293 !important;
+    font-size: 14px;
+}
+.product-desc h6:not(.text-muted){
+    color: #121617 !important;
+    font-weight: 500;
+}
+.product-desc h4.text-muted{
+    color: #909293 !important;
+    font-size: 18px !important;
+}
+.product-desc h4:not(.text-muted){
+    color: #121617 !important;
+    font-weight: 500;
 }
 .item{
     padding-bottom: 2rem;
@@ -98,6 +112,9 @@ body{
 }
 .product-footer{
     padding: 10px;
+}
+.slider_products .product-footer{
+    padding: 18px 10px 10px;
 }
 .product-footer span .fa-star{
     color: #6DBB4C;
@@ -131,18 +148,20 @@ body{
 .sale h5{
     margin-bottom: 0;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
 }
 .flash-sale{
     background-color: #8AC16B;
 }
 .flash-sale span{
-    line-height: 15px;
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
     text-transform: uppercase;
+    padding-left: 8px;
 }
 .bag-img img{
-    height: 165px;
+    height: 140px !important;
     object-fit: contain;
 }
 .cat-img{
@@ -175,13 +194,51 @@ body{
     min-height: 170px;
     height: 170px;
     margin-bottom: 15px;
-    padding-top: 15px;
 }
 .sales-products .product-img img{
     height: 100%;
 }
 .subscribe{
    background-color: #ECEDED; 
+}
+.product-header{
+    border-bottom-color: #8ac16b !important;
+}
+.product-header h6{
+    font-size: 13px;
+}
+.all_products .product-desc p{
+    height: 41px;
+}
+.product-desc p{
+    font-weight: 500;
+    color: #121617;
+}
+.product-footer small {
+    color: #909293;
+    font-size: 10px;
+}
+#countdown ul{
+    margin-bottom: 0;
+}
+#countdown ul li {
+    display: inline-block;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #000;
+    border-radius: 4px;
+    width: 37px;
+    text-align: center;
+    margin-right: 2px;
+    font-weight: 400;
+}
+
+#countdown ul li span {
+  display: block;
+  font-size: 20px;
+  color: #fff;
 }
 /**********Footer ***********/
 .footer-menu h5{

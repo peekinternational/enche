@@ -5,7 +5,7 @@
         <ul class="list-unstyled list-inline mb-0">
           <li class="list-inline-item d-none d-sm-inline-block"><a href="" class="text-uppercase text-decoration-none text-reset">Download Enche apps</a></li>
           <li class="list-inline-item">
-            <select class="border-0 text-reset bg-transparent">
+            <select class="border-0 text-reset bg-transparent text-uppercase">
               <option>Langauge</option>
               <option>English</option>
               <option>Arabic</option>
@@ -13,7 +13,7 @@
             </select>
           </li>
           <li class="list-inline-item">
-            <select class="border-0 text-reset bg-transparent">
+            <select class="border-0 text-reset bg-transparent text-uppercase">
               <option>Currency</option>
               <option>USD</option>
               <option>RM</option>
