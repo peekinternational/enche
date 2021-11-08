@@ -3,7 +3,7 @@
     <div class="row d-flex justify-content-between">
       <div class="col-md-4 col-6">
         <ul class="list-unstyled list-inline mb-0">
-          <li class="list-inline-item d-none d-sm-block"><a href="" class="text-uppercase text-decoration-none text-reset">Download Enche apps</a></li>
+          <li class="list-inline-item d-none d-sm-inline-block"><a href="" class="text-uppercase text-decoration-none text-reset">Download Enche apps</a></li>
           <li class="list-inline-item">
             <select class="border-0 text-reset bg-transparent">
               <option>Langauge</option>
@@ -25,7 +25,7 @@
       <div class="col-md-4 col-6 text-end right-menu">
         <ul class="list-unstyled list-inline mb-0">
           <li class="list-inline-item"><a href="" class="text-uppercase text-decoration-none text-reset">Sign up</a> | <a href="" class="text-uppercase text-decoration-none text-reset">Log In</a></li>
-          <li class="list-inline-item d-none d-sm-block"><a href="" class="text-uppercase text-decoration-none text-reset"><i class="fal fa-bell"></i> Notification</a></li>
+          <li class="list-inline-item d-none d-sm-inline-block"><a href="" class="text-uppercase text-decoration-none text-reset"><i class="fal fa-bell"></i> Notification</a></li>
           <li class="list-inline-item"><a href="" class="text-uppercase text-decoration-none text-reset">Ship to <img src="{{asset('frontend/images/flag/img-02.png')}}"></a></li>
         </ul>
       </div>
