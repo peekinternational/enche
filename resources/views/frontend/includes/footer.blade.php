@@ -43,12 +43,17 @@
 			<div class="footer-menu">
 				<h5>Contact With Us</h5>
 				<ul class="list-unstyled contact-ul">
-					<li class="">HotLine:<a href="tel:+60376616263" class="text-decoration-none ps-3 fw-bold">+603-7661 6263</a></li>
-					<li class="">Email:<a href="mailto:inquiry@enche.com" class="text-decoration-none ps-3 fw-bold">inquiry@enche.com</a></li>
+					<li class="">Hotline:<a href="tel:+60376616263" class="text-decoration-none ps-3">+603-7661 6263</a></li>
+					<li class="">Email:<a href="mailto:inquiry@enche.com" class="text-decoration-none ps-3">inquiry@enche.com</a></li>
 				</ul>
 				<h5 class="d-none d-sm-block">Follow Us</h5>
 				<div class="social-icons d-none d-sm-block">
-					<img src="{{asset('frontend/images/social.png')}}">
+					<ul class="list-unstyled">
+						<li class="list-inline-item"><a href=""><span><i class="fab fa-facebook"></i></span></a></li>
+						<li class="list-inline-item"><a href=""><span><i class="fab fa-instagram"></i></span></a></li>
+						<li class="list-inline-item"><a href=""><span><i class="fab fa-twitter"></i></span></a></li>
+						<li class="list-inline-item"><a href=""><span><i class="fab fa-youtube"></i></span></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -60,30 +65,30 @@
 						<img src="{{asset('frontend/images/master.png')}}">
 					</div>
 					<div class="icons">
-						<img src="{{asset('frontend/images/bankIslam.png')}}">
+						<img src="{{asset('frontend/images/fpx.png')}}">
 					</div>
 					<div class="icons">
-						<img src="{{asset('frontend/images/bcard.png')}}">
-					</div>
-					<div class="icons">
-						<img src="{{asset('frontend/images/esapay.png')}}">
-					</div>
-					<div class="icons">
-						<img src="{{asset('frontend/images/online.png')}}">
+						<img src="{{asset('frontend/images/maybank.png')}}">
 					</div>
 					<div class="icons">
 						<img src="{{asset('frontend/images/rhb.png')}}">
 					</div>
+					<div class="icons">
+						<img src="{{asset('frontend/images/pbbank.png')}}">
+					</div>
+					<div class="icons">
+						<img src="{{asset('frontend/images/paypal.png')}}">
+					</div>
 				</div>
 				<div class="payment-icons d-flex">
-					<div class="icons">
-						<img src="{{asset('frontend/images/master.png')}}">
-					</div>
 					<div class="icons">
 						<img src="{{asset('frontend/images/bankIslam.png')}}">
 					</div>
 					<div class="icons">
-						<img src="{{asset('frontend/images/bcard.png')}}">
+						<img src="{{asset('frontend/images/connect.png')}}">
+					</div>
+					<div class="icons">
+						<img src="{{asset('frontend/images/amonline.png')}}">
 					</div>
 					<div class="icons">
 						<img src="{{asset('frontend/images/online.png')}}">
@@ -92,7 +97,10 @@
 						<img src="{{asset('frontend/images/webcash.png')}}">
 					</div>
 					<div class="icons">
-						<img src="{{asset('frontend/images/rhb.png')}}">
+						<img src="{{asset('frontend/images/esapay.png')}}">
+					</div>
+					<div class="icons">
+						<img src="{{asset('frontend/images/bcard.png')}}">
 					</div>
 				</div>
 			</div>

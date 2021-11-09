@@ -6,25 +6,27 @@
 
 <div class="row">
 	<div class="col-md-9">
-		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+		<div id="mainBanner" class="carousel slide" data-bs-ride="carousel">
 
-		  <!-- Indicators -->
-		  <ul class="carousel-indicators">
-		    <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
-		    <li data-bs-target="#demo" data-bs-slide-to="1"></li>
-		    <li data-bs-target="#demo" data-bs-slide-to="2"></li>
-		  </ul>
-		  
 		  <!-- The slideshow -->
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" width="1100" height="500">
+		      <img src="{{asset('frontend/images/slider.png')}}" alt="Slide" width="1100" height="400">
+		      <div class="carousel-caption d-md-block">
+        		<h5>Merchant Are Welcome to Join</h5>
+      		</div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" width="1100" height="500">
+		      <img src="{{asset('frontend/images/slider.png')}}" alt="Slide" width="1100" height="400">
+		      <div class="carousel-caption d-md-block">
+        		<h5>Merchant Are Welcome to Join</h5>
+      		</div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="1100" height="500">
+		      <img src="{{asset('frontend/images/slider.png')}}" alt="Slide" width="1100" height="400">
+		      <div class="carousel-caption d-md-block">
+        		<h5>Merchant Are Welcome to Join</h5>
+      		</div>
 		    </div>
 		  </div>
 		  
@@ -36,36 +38,36 @@
 		    <span class="carousel-control-next-icon"></span>
 		  </a> -->
 		  <ol class="carousel-indicators">
-          <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#demo" data-bs-slide-to="1" ></li>
-          <li data-bs-target="#demo" data-bs-slide-to="2" ></li>
+          <li data-bs-target="#mainBanner" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#mainBanner" data-bs-slide-to="1" ></li>
+          <li data-bs-target="#mainBanner" data-bs-slide-to="2" ></li>
       </ol>
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="row text-center">
+		<div class="row text-center general_cat">
 			<div class="col-md-6 col-6 mb-3">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/csrCart.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/csrCart.png')}}">
 				<p class="text-uppercase">CSR CART</p>
 			</div>
 			<div class="col-md-6 col-6 mb-3">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/enchepreneur.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/enchepreneur.png')}}">
 				<p class="text-uppercase">Enchepreneur</p>
 			</div>
 			<div class="col-md-6 col-6 mb-3">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/csrGallery.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/csrGallery.png')}}">
 				<p class="text-uppercase">CSR Gallery</p>
 			</div>
 			<div class="col-md-6 col-6 mb-3">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/affliate.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/affliate.png')}}">
 				<p class="text-uppercase">EncheFfiliate</p>
 			</div>
 			<div class="col-md-6 col-6 mb-1">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/partner.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/partner.png')}}">
 				<p class="text-uppercase mb-0">Partner with us</p>
 			</div>
 			<div class="col-md-6 col-6 mb-1">
-				<img class="w-75 mb-2" src="{{asset('frontend/images/products/images/artisanCraft.png')}}">
+				<img class="mb-2" src="{{asset('frontend/images/products/images/artisanCraft.png')}}">
 				<p class="text-uppercase mb-0">Artisan Craft</p>
 			</div>
 		</div>
@@ -78,7 +80,7 @@
 		<div class="col-md-4 mb-3 mb-md-0 pe-2">
 			<div class="multi-products border border-2">
 				<div class="d-flex justify-content-between p-3">
-					<h6 class="text-uppercase">Request for quote</h6>
+					<h6 class="text-uppercase title">Request for quote</h6>
 					<a href="" class="text-decoration-none">See More ></a>
 				</div>
 				<div class="row mt-3">
@@ -110,7 +112,7 @@
 		<div class="col-md-4 mb-3 mb-md-0 pe-2">
 			<div class="multi-products border border-2">
 				<div class="d-flex justify-content-between p-3">
-					<h6 class="text-uppercase">Enchepreneur</h6>
+					<h6 class="text-uppercase title">Enchepreneur</h6>
 					<a href="" class="text-decoration-none">See More ></a>
 				</div>
 				<div class="row mt-3">
@@ -142,7 +144,7 @@
 		<div class="col-md-4 mb-3 mb-md-0 ps-2">
 			<div class="multi-products border border-2">
 				<div class="d-flex justify-content-between p-3">
-					<h6 class="text-uppercase">EncheFfiliate</h6>
+					<h6 class="text-uppercase title">EncheFfiliate</h6>
 					<a href="" class="text-decoration-none">See More ></a>
 				</div>
 				<div class="row mt-3">
@@ -1519,11 +1521,11 @@
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-5 d-grid px-2 mx-auto">
 			<p class="fw-bold text-center">We will deliver the latest trends and industry news straight to your inbox.</p>
-			<form>
+			<form class="subscribe-form">
 				<div class="input-group">
-         <input type="email" class="form-control-lg form-control fs-6" placeholder="Enter your email">
+         <input type="email" class="form-control-lg form-control" placeholder="Your Email">
          <span class="input-group-btn ms-3">
-         	<button class="btn browse-btn h-100 px-4" type="submit">Subscribe</button>
+         	<button class="btn browse-btn h-100 px-4 text-capitalize" type="submit">Subscribe</button>
          </span>
         </div>
 			</form>

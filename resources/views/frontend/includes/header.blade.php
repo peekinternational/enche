@@ -56,7 +56,7 @@
           <div class="cart-btn me-4">
             <i class="fas fa-shopping-cart"></i>
           </div>
-          <button class="btn track-btn text-uppercase"><i class="fal fa-truck"></i>Track My Order</button>
+          <button class="btn track-btn text-uppercase"><i class="fal fa-truck pe-2"></i>Track My Order</button>
         </div>
       </div>
     </div>
@@ -65,9 +65,25 @@
 
 <div class="nav-scroller py-1 mb-2 border-top border-bottom">
   <nav class="nav d-flex bottom-nav">
-    <a class="p-2 text-black text-decoration-none text-uppercase" href="#">Join AS</a>
-    <a class="p-2 text-black text-decoration-none text-uppercase" href="#">Kudos</a>
-    <a class="p-2 text-black text-decoration-none text-uppercase" href="#">Help</a>
-    <a class="p-2 text-black text-decoration-none text-uppercase" href="#">EMA</a>
+    <ul class="list-unstyled list-inline mb-0">
+      <li class="list-inline-item">
+        <select class="border-0 text-reset bg-transparent text-uppercase">
+          <option>Join As</option>
+          <option>Seller</option>
+        </select>
+      </li>
+      <li class="list-inline-item">
+        <a class="p-2 text-black text-decoration-none text-uppercase" href="#">Kudos</a>
+      </li>
+      <li class="list-inline-item">
+        <select class="border-0 text-reset bg-transparent text-uppercase">
+          <option>Help</option>
+          <option>Help</option>
+        </select>
+      </li>
+      <li class="list-inline-item">
+        <a class="p-2 text-black text-decoration-none text-uppercase" href="#">EMA</a>
+      </li>
+    </ul>
   </nav>
 </div>
