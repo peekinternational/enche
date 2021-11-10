@@ -51,6 +51,7 @@ body{
 }
 .top-bar ul li{
     color: #606060;
+    font-size: 13px;
 }
 .track-btn{
     background-color: #6FB251;
@@ -69,11 +70,13 @@ body{
 #mainBanner .carousel-inner{
     border-radius: 25px;
 }
-.carousel-indicators li {
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 100%;
-  background-color: #6FB251 !important;
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+.carousel-indicators li.active {
+    background-color: #6FB251 !important;
 }
 #mainBanner .carousel-caption{
     top: 15%;
@@ -360,15 +363,29 @@ body{
     .carousel-inner .carousel-item img{
         height: 300px;
     }
+    .top-bar ul li {
+        font-size: 11px;
+    }
     .right-menu {
         padding-left: 0 !important;
         padding-right: 0;
     }
     .right-menu ul{
-        text-align: left;
+        text-align: right;
+        padding-right: 10px;
+    }
+    .left_col{
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .left_col ul li{
+        margin-right: 0 !important;
     }
     .navbar-toggler{
         border: 1px solid #6fb251;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
     }
     .navbar-toggler .fas{
         color: #6fb251;

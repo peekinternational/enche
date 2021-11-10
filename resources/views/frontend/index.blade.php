@@ -500,7 +500,7 @@
 					<img class="w-100 mb-2" src="{{asset('frontend/images/products/images/fabric.png')}}">
 				</div>
 				<div class="cat_title">
-					<h6>Fabric and Textile</h6>
+					<h6>Fabric & Textile</h6>
 				</div>
 			</div>
 		</div>

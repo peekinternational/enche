@@ -1,7 +1,7 @@
 <header>
   <div class="top-bar py-2 px-2">
     <div class="row d-flex justify-content-between">
-      <div class="col-md-4 col-6">
+      <div class="col-md-4 col-6 left_col">
         <ul class="list-unstyled list-inline mb-0">
           <li class="list-inline-item d-none d-sm-inline-block"><a href="" class="text-uppercase text-decoration-none text-reset">Download Enche apps</a></li>
           <li class="list-inline-item">
@@ -41,8 +41,9 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         
         <div class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll align-items-center">
-          <div class="cate-btn pe-3 d-none d-sm-block">
-            <i class="fa fa-bars"></i>
+          <div class="cate-btn pe-2 d-none d-sm-block">
+            <!-- <i class="fa fa-bars"></i> -->
+            <img src="{{asset('frontend/images/menudots.png')}}">
           </div>
           <form class="d-flex">
             <div class="search"> 
